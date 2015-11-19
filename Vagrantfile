@@ -8,5 +8,10 @@ Vagrant.configure('2') do |config|
     chef.add_recipe 'chef_handler'
     chef.add_recipe 'minitest-handler'
     chef.add_recipe 'dotnetframework'
+    chef.json = {
+      'dotnetframework' => {
+        'version' => '4.6'
+      }
+    }
   end
 end
