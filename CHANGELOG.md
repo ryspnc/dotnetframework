@@ -2,6 +2,9 @@
 
 This file is used to list changes made in each version of dotnetframework.
 
+## 1.3.0
+- Added a 1 minute delay in reboot command to help with VMware vRO.
+
 ## 1.2.0
 - .NET 4.6.1 support
 - Installation is skipped if a newer .NET version is already installed.
