@@ -2,6 +2,9 @@
 
 This file is used to list changes made in each version of dotnetframework.
 
+## 1.3.1
+- Changed reboot action to `:reboot_now` instead of `:request_reboot`.
+
 ## 1.3.0
 - Added a 1 minute delay in reboot command to help with VMware vRO.
 
