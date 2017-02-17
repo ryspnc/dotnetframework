@@ -34,5 +34,5 @@ dotnetframework_version node['dotnetframework'][version]['version'] do
   source node['dotnetframework'][version]['url']
   package_name node['dotnetframework'][version]['package_name']
   checksum node['dotnetframework'][version]['checksum']
-  notifies :request_reboot, 'reboot[dotnetframework_install]', :immediately
+  notifies :reboot_now, 'reboot[dotnetframework_install]', :immediately
 end
