@@ -27,6 +27,7 @@ node.set['dotnetframework']['dir'] = dotnet4dir
 reboot 'dotnetframework_install' do
   reason 'dotnetframework requires a reboot to complete'
   action :nothing
+  delay_mins 1
 end
 
 dotnetframework_version node['dotnetframework'][version]['version'] do
