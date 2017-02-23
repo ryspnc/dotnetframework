@@ -2,7 +2,7 @@
 
 This file is used to list changes made in each version of dotnetframework.
 
-## 1.3.1
+## 1.3.2
 - Changed reboot action back to `:request_reboot`.
 
 ## 1.3.1
