@@ -8,6 +8,6 @@ ver_path = File.join(File.dirname(__FILE__), 'version.txt')
 version File.exist?(ver_path) ? IO.read(ver_path).chomp : '1.1.0'
 issues_url 'https://github.com/daptiv/dotnetframework/issues'
 source_url 'https://github.com/daptiv/dotnetframework/'
-version '1.3.1'
+version '1.3.2'
 supports 'windows'
 depends 'windows', '>= 1.2.6'
